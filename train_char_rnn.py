@@ -9,8 +9,8 @@ from tqdm import tqdm
 
 
 def train_char_rnn():
-    weights_fpath = 'weights2.pickle'  # weights will be stored here
-    text_fpath = 'parsed2.txt'  # path to the input file
+    weights_fpath = 'weights.pickle'  # weights will be stored here
+    text_fpath = 'parsed.txt'  # path to the input file
     max_epochs = 1000
     lr = 0.01
     grad_clipping = 100.
